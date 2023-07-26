@@ -38,11 +38,22 @@ h1 {
 
   button {
     outline: none;
-    background: rgb(8, 88, 208);
+    background: rgb(66, 140, 158);
     padding: 12px 40px;
     font-size: 1rem;
     font-weight: bold;
     color: #fff;
     border: none;
     transition: all 0.2s ease-in-out;
+    margin-top: 45px;
+    border-radius: 10px;
   }
+
+
+  button:hover {
+    cursor: pointer;
+    background: green;
+    color: white;
+  }
+
+
